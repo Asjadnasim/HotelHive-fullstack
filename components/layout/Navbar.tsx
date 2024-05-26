@@ -17,7 +17,7 @@ const Navbar = () => {
 			<Container>
 				<div className='flex items-center justify-between'>
 					<div
-						className='flex items-center gap-1 cursor-pointer'
+						className='flex items-end gap-1 cursor-pointer'
 						onClick={() => router.push('/')}
 					>
 						<Image src={'/logo.svg'} alt='logo' width={40} height={30} />
